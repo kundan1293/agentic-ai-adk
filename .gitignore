@@ -1,0 +1,29 @@
+# Local credentials and environment configuration
+.env
+.env.*
+!.env.example
+
+# Python environments
+.venv/
+.venv*/
+venv/
+env/
+gemini_env/
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ADK local state and common test/tool caches
+.adk/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Editor and operating-system files
+.DS_Store
+.vscode/
+.idea/
